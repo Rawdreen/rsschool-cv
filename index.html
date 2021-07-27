@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal CV</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="content-details">
+        <div class="content">
+            <section>
+                <div class="general-info">
+                    <img src="pictures/avatar.jpg" alt="avatar image">
+                    <h2>INFO</h2>
+                    <h4>Location:</h4>
+                    <p>Tashkent, Uzbekistan</p>
+
+                    <h4>Phone</h4>
+                    <p>(90) 136-30-46</p>
+
+                    <h4>Email</h4>
+                    <p>askarovabdulloh111@gmail.com</p>
+
+                    <h2>LINKS</h2>
+                    <a href="https://www.linkedin.com/in/abdullokh-askarov/">LinkedIn</a>
+                    <a href="https://github.com/Rawdreen/">Github</a>
+
+                    <h2>SKILLS</h2>
+                    <h4>Programming languages:</h4>
+                    <ol>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                    </ol>
+
+                    <h4>Frameworks:</h4>
+                    <ol>
+                        <li>ReactJS</li>
+                    </ol>
+
+                    <h4>Tools:</h4>
+                    <ol>
+                        <li>Blender, Blender Python development</li>
+                        <li>3ds Max</li>
+                        <li>Figma, Adobe XD</li>
+                        <li>Adobe After Effects</li>
+                    </ol>
+
+                    <h4>Methodologies:</h4>
+                    <ol>
+                        <li>Agile</li>
+                    </ol>
+
+                    <h2>LANGUAGES</h2>
+                    <ul>
+                        <li>English</li>
+                        <li>Russian</li>
+                        <li>Uzbek</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h1 class="profile-name">Askarov Abdullokh</h1>
+                <h2 class="profile-job-position">Machine learning engineer</h2>
+                <p>
+                    Hi! I am graduate software engineering student with 4 years of experience in Computer
+                    Graphics.<br />
+                    So far, I worked as: </p>
+                <ul>
+                    <li>UI/UX Designer,</li>
+                    <li>Graphics Designer,</li>
+                    <li>Motion Graphics Designer,</li>
+                    <li>3D generalist,</li>
+                    <li>Unity developer.</li>
+                </ul>
+                <p>
+                    A wide range of skills helps me to understand and learn new concepts fast.
+                    I enjoy working in cross domains and be able to solve challenging tasks.
+                    Recently, I started working on WebGL and graphics optimization for web.
+
+                </p>
+
+
+                <div class="section">
+                    <div class="section-component">
+                        <h1 class="section-info">Work experience</h1>
+                        <h3 class="title">ML engineer</h3>
+                        <p class="name">Raisense</p>
+                        <p class="years">2019-present</p>
+                        <ul class="accomplishments">
+                            <li>Delivery of UI/UX design for mobile and web applications;</li>
+                            <li>Motion graphics for promoting our products and services;</li>
+                            <li>3D visualization;</li>
+                            <li>Script development for workflow optimization in Adobe environment;</li>
+                            <li>XR app development for industries;</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-component">
+                        <h1 class="section-info">Education</h1>
+                        <h3 class="title">Master’s degree in Computer vision and AI</h3>
+                        <p class="name">TUIT</p>
+                        <p class="years"><time datetime="2020">(2020-2022)</time></p>
+                        <ul class="accomplishments">
+                            <li>Synthetic dataset generation for ML using 3d modeling software</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <div class="section-component">
+                        <h1 class="section-info">Code Example:</h1>
+                        <p>Blender custom add-on example:</p>
+                        <pre>
+                        <code>
+import bpy
+
+bl_info = {
+    "name": "Object Selector",
+    "blender": (2, 80, 0),
+    "category": "Object",
+    "author": "Rawdreen"
+}
+
+
+class Operator1(bpy.types.Operator):
+    """Tooltip"""
+    bl_idname = "object.operator1"
+    bl_label = "Simple Object Operator"
+
+    def execute(self, context):
+        bpy.ops.transform.translate(value=(1, 0, 0), orient_type='GLOBAL')
+        return {'FINISHED'}
+
+
+class Operator2(bpy.types.Operator):
+    """Tooltip"""
+    bl_idname = "object.operator2"
+    bl_label = "Simple Object Operator"
+
+    def execute(self, context):
+        bpy.ops.transform.translate(value=(-1, 0, 0), orient_type='GLOBAL')
+        return {'FINISHED'}
+
+
+class Operator3(bpy.types.Operator):
+    """Tooltip"""
+    bl_idname = "object.operator3"
+    bl_label = "Simple Object Operator"
+
+    def execute(self, context):
+        bpy.ops.transform.translate(value=(0, 0, 1), orient_type='GLOBAL')
+        return {'FINISHED'}
+
+
+class Operator4(bpy.types.Operator):
+    """Tooltip"""
+    bl_idname = "object.operator4"
+    bl_label = "Simple Object Operator"
+
+    def execute(self, context):
+        bpy.ops.transform.translate(value=(0, 0, -1), orient_type='GLOBAL')
+        return {'FINISHED'}
+
+
+class Operator5(bpy.types.Operator):
+    """Tooltip"""
+    bl_idname = "object.operator5"
+    bl_label = "Simple Object Operator"
+
+    def execute(self, context):
+        bpy.ops.object.location_clear(clear_delta=False)
+        return {'FINISHED'}
+
+
+class Operator6(bpy.types.Operator):
+    """Tooltip"""
+    bl_idname = "object.operator6"
+    bl_label = "Simple Object Operator"
+
+    def execute(self, context):
+        bpy.ops.transform.resize(value=(3.12037, 3.12037, 3.12037), orient_type='GLOBAL', orient_matrix=(
+            (1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+        return {'FINISHED'}
+
+
+class ObjectSelector_PT_panel(bpy.types.Panel):
+    bl_label = "Select object"
+    bl_idname = "objectSelector"
+    bl_space_type = "VIEW_3D"
+    bl_region_type = "UI"
+    bl_category = "Object Selector"
+
+    def draw(self, context):
+        layout = self.layout
+        layout.label(text="Object Selector")
+
+        layout.use_property_split = True
+        layout.use_property_decorate = True
+
+        self.layout.label(text="Values")
+        row = layout.row(align=True)
+        subrow1 = row.row(align=True)
+        subrow1.operator(Operator1.bl_idname, text="", icon="TRIA_LEFT")
+        subrow1 = row.row(align=True)
+        subrow1.operator(Operator2.bl_idname, text="", icon="TRIA_RIGHT")
+        subrow1 = row.row(align=True)
+        subrow1.operator(Operator3.bl_idname, text="", icon="TRIA_UP")
+        subrow1 = row.row(align=True)
+        subrow1.operator(Operator4.bl_idname, text="", icon="TRIA_DOWN")
+        row.split()
+
+        self.layout.label(text="Values 2")
+        row = row.row()
+        row.operator(Operator5.bl_idname, text="RESET",
+                        icon="FULLSCREEN_EXIT")
+
+        # col = layout.row(align=True)
+        # col.operator(Operator5.bl_idname, text="RESET", icon="FULLSCREEN_EXIT")
+
+
+_classes = [
+    ObjectSelector_PT_panel,
+    Operator1,
+    Operator2,
+    Operator3,
+    Operator4,
+    Operator5
+]
+
+
+def register():
+    for cls in _classes:
+        bpy.utils.register_class(cls)
+
+
+def unregister():
+    for cls in _classes:
+        bpy.utils.unregister_class(cls)
+
+
+if __name__ == "__main__":
+    register()   
+                        </code>
+                        </pre>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <a href="https://rs.school/js/">
+                <img id="course-logo" src="https://rs.school/images/rs_school_js.svg" alt="rsschool logo"></a>
+        </footer>
+    </div>
+</body>
+
+</html>
