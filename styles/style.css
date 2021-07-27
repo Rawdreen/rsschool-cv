@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.content {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  padding: 100px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(58, 30, 6, 0.3);
+}
+
+.content-details {
+  padding: 100px 150px 100px 150px;
+  background-color: #fbca4a;
+}
+
+section:first-child {
+  width: 30%;
+  padding-left: 20px;
+}
+
+section:first-child h2 {
+  padding: 50px 0 20px 0;
+}
+
+section:first-child a {
+  text-decoration: none;
+  color: black;
+}
+
+section:first-child a:hover {
+  text-decoration: none;
+  color: #fbca4a;
+}
+
+section:first-child img {
+  border-radius: 20px;
+}
+
+section:first-child h4 {
+  padding: 20px 0 4px 0;
+}
+
+section:last-child {
+  padding: 20px;
+  width: 60%;
+}
+
+section:last-child p {
+  margin-left: 20px;
+}
+
+.profile-name {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.profile-job-position {
+  padding-bottom: 40px;
+}
+
+.section-component {
+  padding: 20px;
+}
+
+.section-info {
+  padding: 8px 0;
+  border-bottom: 2px solid #0f0f0f63;
+  margin: 20px 0;
+}
+
+ul,
+ol {
+  padding: 10px 0 10px 40px;
+}
+
+li {
+  margin: 0 20px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#course-logo {
+  width: 100px;
+}
+
+pre code {
+  color: #503929;
+  background-color: #fbc94a2d;
+  border: 1px solid #ffd000;
+  border-radius: 20px;
+  display: block;
+  padding: 20px;
+}
