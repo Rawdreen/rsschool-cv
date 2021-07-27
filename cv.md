@@ -1,5 +1,5 @@
-#### Curriculum Vitae <h4>
- # Askarov Abdullokh
+#### Curriculum Vitae <br/>
+# Askarov Abdullokh <br/>
 ![user-image](https://media-exp1.licdn.com/dms/image/C5603AQE-K6GAwMOiwg/profile-displayphoto-shrink_400_400/0/1566232551380?e=1632960000&v=beta&t=eNbc8foSikkiAxZuvX-WH7BqzKUQ-pYqS8V_7W1dJOo) <br/> 
 e-mail: askarovabulloh111@gmail.com <br/> 
 linkedin: [abdullokh-askarov](https://www.linkedin.com/in/abdullokh-askarov/)
@@ -193,8 +193,8 @@ if __name__ == "__main__":
 
 
 ## Work experience
- #### graphics designer / software developer (2019 - present)
- ###### Raisense
+#### graphics designer / software developer (2019 - present)
+###### Raisense 
 Raisense is a fast-growing IT company in Uzbekistan. Here, we work closely with android, iOS, front-end, and back-end developers, so each of us understands the process and limitation of technologies we use. It helps us to understand each other and deliver IT-solutions faster. <br/>
 
 As a graphics designer/software developer at Raisense, my tasks include (but not limited to):
@@ -238,7 +238,7 @@ Tools I frequently use:
 <br/>
 <br/>
 
- ## Languages
+## Languages
   * English - Full professional proficiency
   * Italian - Limited working proficiency
   * Korean - Elementary proficiency
